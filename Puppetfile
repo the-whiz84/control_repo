@@ -2,7 +2,7 @@ forge 'https://forge.puppet.com'
 
 mod 'puppetlabs-ntp', '9.1.0'
 mod 'apache',
-  :git => 'https://github.com/the-whiz84/puppet-lab'
+  :git => 'https://github.com/the-whiz84/puppet-apache'
 #  :branch => $variable
 #  :default_branch => main
 
@@ -18,6 +18,6 @@ mod 'apache',
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  commit: '1b6f89afdde0df7f9433a163d5c4b5328eac5779'
 
-mod 'apache',
-  git:    'https://github.com/the-whiz84/puppet-apache',
-  branch: 'main'
+#mod 'apache',
+#  git:    'https://github.com/the-whiz84/puppet-apache',
+$  branch: 'main'
