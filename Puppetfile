@@ -2,9 +2,8 @@ forge 'https://forge.puppet.com'
 
 mod 'puppetlabs-ntp', '9.1.0'
 mod 'apache',
-  :git => 'https://github.com/the-whiz84/puppet-apache'
-#  :branch => $variable
-#  :default_branch => main
+  git: 'https://github.com/the-whiz84/puppet-apache',
+  branch: 'main'
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
